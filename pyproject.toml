@@ -21,3 +21,8 @@ package = false
 # Usar siempre el Python administrado por uv (idéntico en local y en Codespaces)
 python-preference = "only-managed"
 required-version = ">=0.12.17"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
